@@ -5,6 +5,7 @@ import sys
 
 if len(sys.argv) != 4:
     print("Need 4 arguments: python carPricePredictor.py <Mileage> <Cylinder> <Doors>")
+    sys.exit()
     
 
 print ("Number of arguments: ", len(sys.argv))
